@@ -12,7 +12,7 @@ export const projects: Project[] = [
     name: "LojaZap",
     description: "LojaZap é um projeto de e-commerce que simula uma loja online com funcionalidades de busca e compra de produtos, desenvolvida com React, TypeScript e Tailwind CSS.",
     gitLink: "https://github.com/mathiasfuhr/projeto-Sushi",
-    liveLink: "https://projeto1.com",
+    liveLink: "https://sushizap.vercel.app/",
   },
   {
     imgSrc: webCarros,
