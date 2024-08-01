@@ -36,7 +36,7 @@ const Footer = () => {
             <FaFilePdf size={36} />
           </a>
           <a
-            href="https://wa.me/5511999999999"
+            href="https://wa.me/55997282539"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-transform transform hover:scale-110 text-green-600 hover:text-green-300"
