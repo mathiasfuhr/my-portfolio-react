@@ -4,6 +4,7 @@ import ecommerce from '../assets/ecommerce.png';
 import devCurrency from '../assets/devCurrency.png';
 import primeFlix from '../assets/prime Flix.png';
 import tomato from '../assets/tomato.png'
+import disney from '../assets/DISNEY.png'
 
 import { Project } from '../types/Project';
 
@@ -50,4 +51,12 @@ export const projects: Project[] = [
     gitLink: "https://github.com/mathiasfuhr/food-del-frontend",
     liveLink: "https://food-del-frontend-six.vercel.app/",
   },
+  {
+  imgSrc: disney, 
+  name: "DisneyClone",
+  description: "DisneyClone é uma aplicação que replica a interface e funcionalidades do serviço de streaming Disney+, utilizando a API da MovieTMDB. Desenvolvido com React e Tailwind CSS, o projeto oferece uma experiência de usuário imersiva e permite explorar uma vasta coleção de filmes e séries.",
+  gitLink: "https://github.com/mathiasfuhr/Disney-Clone",
+  liveLink: "https://disney-clone-chi-eight.vercel.app/",
+}
+
 ];
