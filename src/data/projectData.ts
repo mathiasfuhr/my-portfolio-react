@@ -3,6 +3,7 @@ import webCarros from '../assets/webCarros.png';
 import ecommerce from '../assets/ecommerce.png';
 import devCurrency from '../assets/devCurrency.png';
 import primeFlix from '../assets/prime Flix.png';
+import tomato from '../assets/tomato.png'
 
 import { Project } from '../types/Project';
 
@@ -41,5 +42,12 @@ export const projects: Project[] = [
     description: "PrimeFlix é uma aplicação que lista filmes usando uma API e permite aos usuários salvar filmes em uma lista pessoal. Desenvolvido com React e Tailwind CSS, o projeto oferece uma interface intuitiva para explorar e gerenciar uma coleção de filmes.",
     gitLink: "https://github.com/mathiasfuhr/filmes-react-primeflix",
     liveLink: "https://primeflix-lancamentos.netlify.app/",
+  },
+  {
+    imgSrc: tomato,
+    name: "Tomato",
+    description: "Tomato permite que os usuários explorem um menu de comidas, adicionem itens ao carrinho e façam pedidos online. A interface é projetada para ser intuitiva e responsiva, facilitando a navegação e a experiência de compra do usuário.",
+    gitLink: "https://github.com/mathiasfuhr/food-del-frontend",
+    liveLink: "https://food-del-frontend-six.vercel.app/",
   },
 ];
